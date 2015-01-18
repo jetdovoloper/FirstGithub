@@ -18,16 +18,6 @@ public class Op extends Patient{
     private YesNo role6;
     private YesNo role7;
 
-    public Op(YesNo role1, YesNo role2, YesNo role3, YesNo role4, YesNo role5, YesNo role6, YesNo role7) {
-        this.role1 = role1;
-        this.role2 = role2;
-        this.role3 = role3;
-        this.role4 = role4;
-        this.role5 = role5;
-        this.role6 = role6;
-        this.role7 = role7;
-    }    
-
     public YesNo getRole1() {
         return role1;
     }

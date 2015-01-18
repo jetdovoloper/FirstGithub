@@ -42,5 +42,6 @@ public class SumAveragePatientT extends TestCase {
         ip.setRole5(YesNo.YES);
         
         assertEquals(5, sum(ip));
+        
     }
 }
